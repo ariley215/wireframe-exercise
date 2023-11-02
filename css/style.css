@@ -1,0 +1,67 @@
+header {
+  background-color: #3C4142;
+  height: 100px;
+
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  padding: 30px;
+
+}
+nav a {
+  color:antiquewhite;
+  text-decoration: none;
+
+}
+
+main {
+display: flex;
+flex-direction: column;
+gap: 30px;
+margin: 30px auto;
+width: 80%;
+
+}
+
+#hero {
+  display: flex;
+  gap: 30px;
+
+}
+
+#hero img {
+  width:100%;
+  
+}
+
+.sub-banners {
+  display: flex;
+  gap:30px;
+}
+.sub-banners img {
+  width:80%;
+}
+.with-text {
+  display: flex;
+  width:100%;
+  gap: 30px;
+}
+
+.with-text img {
+  flex: 1;
+  width: 50%;
+
+}
+.with-text p {
+  flex:2;
+  overflow: scroll;
+  height: 400px;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #737175;
+  height: 120px;
+}
